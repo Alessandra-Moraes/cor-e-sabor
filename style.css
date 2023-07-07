@@ -1,0 +1,53 @@
+h1 {
+  display: block;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+  padding-inline-start: 40px;
+}
+nav li {
+  display: inline;
+  line-height: 42px;
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 6px;
+}
+footer .social-links a {
+  margin: 20px;
+  color: pink;
+  background-color: gray;
+  font-size: 22px;
+  padding: 10px 20px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: gray;
+  background-color: pink;
+}
+.logo {
+  padding: 30px;
+
+  max-width: 200px;
+}
+.hero h1 {
+  font-family: spectral;
+  font-size: 60px;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 34px;
+  }
+}
